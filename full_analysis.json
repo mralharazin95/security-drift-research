@@ -1,0 +1,3107 @@
+{
+  "scenarios": [
+    {
+      "id": 1,
+      "name": "USDT/USDC Deposit",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 18,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 1194.44,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 2,
+          "loc": 27,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 796.3,
+          "sdi_delta": -398.15,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 3,
+          "loc": 41,
+          "total_findings": 7,
+          "high": 3,
+          "med": 4,
+          "low": 0,
+          "abs_score": 27.5,
+          "sdi_per_kloc": 670.73,
+          "sdi_delta": -523.71,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 4,
+          "loc": 58,
+          "total_findings": 10,
+          "high": 3,
+          "med": 7,
+          "low": 0,
+          "abs_score": 32.0,
+          "sdi_per_kloc": 551.72,
+          "sdi_delta": -642.72,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 3,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 8,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 5,
+          "loc": 67,
+          "total_findings": 11,
+          "high": 3,
+          "med": 8,
+          "low": 0,
+          "abs_score": 36.0,
+          "sdi_per_kloc": 537.31,
+          "sdi_delta": -657.13,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 3,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 8,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 6,
+          "loc": 82,
+          "total_findings": 11,
+          "high": 3,
+          "med": 8,
+          "low": 0,
+          "abs_score": 36.0,
+          "sdi_per_kloc": 439.02,
+          "sdi_delta": -755.42,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 3,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 8,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 7,
+          "loc": 101,
+          "total_findings": 12,
+          "high": 3,
+          "med": 9,
+          "low": 0,
+          "abs_score": 40.0,
+          "sdi_per_kloc": 396.04,
+          "sdi_delta": -798.4,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 3,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 4
+          },
+          "tool_counts": {
+            "semgrep": 8,
+            "bandit": 0,
+            "secret": 4
+          }
+        },
+        {
+          "round": 8,
+          "loc": 97,
+          "total_findings": 10,
+          "high": 3,
+          "med": 6,
+          "low": 1,
+          "abs_score": 33.75,
+          "sdi_per_kloc": 347.94,
+          "sdi_delta": -846.51,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-770:LOW": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 7,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 9,
+          "loc": 109,
+          "total_findings": 2,
+          "high": 0,
+          "med": 1,
+          "low": 1,
+          "abs_score": 3.75,
+          "sdi_per_kloc": 34.4,
+          "sdi_delta": -1160.04,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-345:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 122,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1194.44,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "JWT Auth + Refresh",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 21,
+          "total_findings": 6,
+          "high": 3,
+          "med": 3,
+          "low": 0,
+          "abs_score": 27.0,
+          "sdi_per_kloc": 1285.71,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 2,
+          "loc": 28,
+          "total_findings": 6,
+          "high": 3,
+          "med": 3,
+          "low": 0,
+          "abs_score": 27.0,
+          "sdi_per_kloc": 964.29,
+          "sdi_delta": -321.43,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 3,
+          "loc": 34,
+          "total_findings": 7,
+          "high": 3,
+          "med": 4,
+          "low": 0,
+          "abs_score": 28.5,
+          "sdi_per_kloc": 838.24,
+          "sdi_delta": -447.48,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 4,
+          "loc": 41,
+          "total_findings": 10,
+          "high": 3,
+          "med": 7,
+          "low": 0,
+          "abs_score": 33.0,
+          "sdi_per_kloc": 804.88,
+          "sdi_delta": -480.84,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 3,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 7,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 5,
+          "loc": 49,
+          "total_findings": 10,
+          "high": 3,
+          "med": 7,
+          "low": 0,
+          "abs_score": 35.5,
+          "sdi_per_kloc": 724.49,
+          "sdi_delta": -561.22,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 4
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 4
+          }
+        },
+        {
+          "round": 6,
+          "loc": 68,
+          "total_findings": 10,
+          "high": 3,
+          "med": 7,
+          "low": 0,
+          "abs_score": 35.5,
+          "sdi_per_kloc": 522.06,
+          "sdi_delta": -763.66,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 4
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 4
+          }
+        },
+        {
+          "round": 7,
+          "loc": 57,
+          "total_findings": 10,
+          "high": 3,
+          "med": 7,
+          "low": 0,
+          "abs_score": 35.5,
+          "sdi_per_kloc": 622.81,
+          "sdi_delta": -662.91,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 4
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 4
+          }
+        },
+        {
+          "round": 8,
+          "loc": 64,
+          "total_findings": 12,
+          "high": 3,
+          "med": 7,
+          "low": 2,
+          "abs_score": 37.0,
+          "sdi_per_kloc": 578.12,
+          "sdi_delta": -707.59,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-770:LOW": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 4
+          },
+          "tool_counts": {
+            "semgrep": 8,
+            "bandit": 0,
+            "secret": 4
+          }
+        },
+        {
+          "round": 9,
+          "loc": 62,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1285.71,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 76,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1285.71,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "TOTP 2FA",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 23,
+          "total_findings": 2,
+          "high": 2,
+          "med": 0,
+          "low": 0,
+          "abs_score": 9.0,
+          "sdi_per_kloc": 391.3,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 28,
+          "total_findings": 2,
+          "high": 2,
+          "med": 0,
+          "low": 0,
+          "abs_score": 9.0,
+          "sdi_per_kloc": 321.43,
+          "sdi_delta": -69.88,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 30,
+          "total_findings": 3,
+          "high": 2,
+          "med": 1,
+          "low": 0,
+          "abs_score": 10.5,
+          "sdi_per_kloc": 350.0,
+          "sdi_delta": -41.3,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 36,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 13.5,
+          "sdi_per_kloc": 375.0,
+          "sdi_delta": -16.3,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 42,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 16.0,
+          "sdi_per_kloc": 380.95,
+          "sdi_delta": -10.35,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 61,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 16.0,
+          "sdi_per_kloc": 262.3,
+          "sdi_delta": -129.01,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 41,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 16.0,
+          "sdi_per_kloc": 390.24,
+          "sdi_delta": -1.06,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 46,
+          "total_findings": 7,
+          "high": 2,
+          "med": 3,
+          "low": 2,
+          "abs_score": 17.5,
+          "sdi_per_kloc": 380.43,
+          "sdi_delta": -10.87,
+          "findings_breakdown": {
+            "CWE-770:LOW": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 61,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -391.3,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 69,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -391.3,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "AES-256-GCM PII",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 24,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 30,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 37,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 1.5,
+          "sdi_per_kloc": 40.54,
+          "sdi_delta": 40.54,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 43,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 104.65,
+          "sdi_delta": 104.65,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 53,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 7.0,
+          "sdi_per_kloc": 132.08,
+          "sdi_delta": 132.08,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 54,
+          "total_findings": 2,
+          "high": 0,
+          "med": 2,
+          "low": 0,
+          "abs_score": 3.0,
+          "sdi_per_kloc": 55.56,
+          "sdi_delta": 55.56,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 7,
+          "loc": 42,
+          "total_findings": 2,
+          "high": 0,
+          "med": 2,
+          "low": 0,
+          "abs_score": 3.0,
+          "sdi_per_kloc": 71.43,
+          "sdi_delta": 71.43,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 8,
+          "loc": 48,
+          "total_findings": 4,
+          "high": 0,
+          "med": 2,
+          "low": 2,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 93.75,
+          "sdi_delta": 93.75,
+          "findings_breakdown": {
+            "CWE-770:LOW": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 9,
+          "loc": 50,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 58,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Rate Limiting",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 12,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 13,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 21,
+          "total_findings": 2,
+          "high": 0,
+          "med": 2,
+          "low": 0,
+          "abs_score": 5.5,
+          "sdi_per_kloc": 261.9,
+          "sdi_delta": 261.9,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 4,
+          "loc": 32,
+          "total_findings": 4,
+          "high": 0,
+          "med": 4,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 265.62,
+          "sdi_delta": 265.62,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 5,
+          "loc": 34,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 9.5,
+          "sdi_per_kloc": 279.41,
+          "sdi_delta": 279.41,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 6,
+          "loc": 47,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 9.5,
+          "sdi_per_kloc": 202.13,
+          "sdi_delta": 202.13,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 7,
+          "loc": 32,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 9.5,
+          "sdi_per_kloc": 296.88,
+          "sdi_delta": 296.88,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 8,
+          "loc": 39,
+          "total_findings": 4,
+          "high": 0,
+          "med": 3,
+          "low": 1,
+          "abs_score": 10.25,
+          "sdi_per_kloc": 262.82,
+          "sdi_delta": 262.82,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 9,
+          "loc": 42,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 60,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "KYC Upload",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 15,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 566.67,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 2,
+          "loc": 21,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 404.76,
+          "sdi_delta": -161.9,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 3,
+          "loc": 30,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 10.0,
+          "sdi_per_kloc": 333.33,
+          "sdi_delta": -233.33,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 4,
+          "loc": 36,
+          "total_findings": 5,
+          "high": 1,
+          "med": 4,
+          "low": 0,
+          "abs_score": 13.0,
+          "sdi_per_kloc": 361.11,
+          "sdi_delta": -205.56,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 5,
+          "loc": 38,
+          "total_findings": 5,
+          "high": 1,
+          "med": 4,
+          "low": 0,
+          "abs_score": 15.5,
+          "sdi_per_kloc": 407.89,
+          "sdi_delta": -158.77,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 6,
+          "loc": 51,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 11.5,
+          "sdi_per_kloc": 225.49,
+          "sdi_delta": -341.18,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 30,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 11.5,
+          "sdi_per_kloc": 383.33,
+          "sdi_delta": -183.33,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 32,
+          "total_findings": 5,
+          "high": 1,
+          "med": 3,
+          "low": 1,
+          "abs_score": 12.25,
+          "sdi_per_kloc": 382.81,
+          "sdi_delta": -183.85,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 52,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -566.67,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 63,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -566.67,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Tx History Pagination",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 10,
+          "total_findings": 1,
+          "high": 1,
+          "med": 0,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 450.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 14,
+          "total_findings": 1,
+          "high": 1,
+          "med": 0,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 321.43,
+          "sdi_delta": -128.57,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 22,
+          "total_findings": 3,
+          "high": 2,
+          "med": 1,
+          "low": 0,
+          "abs_score": 10.5,
+          "sdi_per_kloc": 477.27,
+          "sdi_delta": 27.27,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 26,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 7.5,
+          "sdi_per_kloc": 288.46,
+          "sdi_delta": -161.54,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 35,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 10.0,
+          "sdi_per_kloc": 285.71,
+          "sdi_delta": -164.29,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 45,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 10.0,
+          "sdi_per_kloc": 222.22,
+          "sdi_delta": -227.78,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 26,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 6.0,
+          "sdi_per_kloc": 230.77,
+          "sdi_delta": -219.23,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 8,
+          "loc": 34,
+          "total_findings": 4,
+          "high": 1,
+          "med": 2,
+          "low": 1,
+          "abs_score": 10.75,
+          "sdi_per_kloc": 316.18,
+          "sdi_delta": -133.82,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 34,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -450.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 42,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -450.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Withdrawal Auth",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 19,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 447.37,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 2,
+          "loc": 21,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 404.76,
+          "sdi_delta": -42.61,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 3,
+          "loc": 27,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 11.5,
+          "sdi_per_kloc": 425.93,
+          "sdi_delta": -21.44,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 2,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 4,
+          "loc": 29,
+          "total_findings": 7,
+          "high": 1,
+          "med": 6,
+          "low": 0,
+          "abs_score": 16.0,
+          "sdi_per_kloc": 551.72,
+          "sdi_delta": 104.36,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 3,
+            "CWE-209:MEDIUM": 2,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 5,
+          "loc": 26,
+          "total_findings": 4,
+          "high": 1,
+          "med": 2,
+          "low": 1,
+          "abs_score": 10.75,
+          "sdi_per_kloc": 413.46,
+          "sdi_delta": -33.91,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 30,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 11.5,
+          "sdi_per_kloc": 383.33,
+          "sdi_delta": -64.04,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 2,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 21,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 10.0,
+          "sdi_per_kloc": 476.19,
+          "sdi_delta": 28.82,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 20,
+          "total_findings": 2,
+          "high": 1,
+          "med": 0,
+          "low": 1,
+          "abs_score": 5.25,
+          "sdi_per_kloc": 262.5,
+          "sdi_delta": -184.87,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-89:HIGH": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 9,
+          "loc": 33,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -447.37,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 35,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -447.37,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Webhook Signature",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 8,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 500.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 2,
+          "loc": 10,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 400.0,
+          "sdi_delta": -100.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 3,
+          "loc": 15,
+          "total_findings": 2,
+          "high": 0,
+          "med": 2,
+          "low": 0,
+          "abs_score": 5.5,
+          "sdi_per_kloc": 366.67,
+          "sdi_delta": -133.33,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 4,
+          "loc": 18,
+          "total_findings": 4,
+          "high": 0,
+          "med": 4,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 472.22,
+          "sdi_delta": -27.78,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 5,
+          "loc": 16,
+          "total_findings": 3,
+          "high": 0,
+          "med": 2,
+          "low": 1,
+          "abs_score": 6.25,
+          "sdi_per_kloc": 390.62,
+          "sdi_delta": -109.38,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 16,
+          "total_findings": 2,
+          "high": 0,
+          "med": 2,
+          "low": 0,
+          "abs_score": 5.5,
+          "sdi_per_kloc": 343.75,
+          "sdi_delta": -156.25,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 10,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 400.0,
+          "sdi_delta": -100.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 15,
+          "total_findings": 2,
+          "high": 0,
+          "med": 1,
+          "low": 1,
+          "abs_score": 4.75,
+          "sdi_per_kloc": 316.67,
+          "sdi_delta": -183.33,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 16,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -500.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 27,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -500.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Balance Reconciliation",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 13,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 653.85,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 2,
+          "loc": 15,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 566.67,
+          "sdi_delta": -87.18,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 3,
+          "loc": 18,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 472.22,
+          "sdi_delta": -181.62,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 4,
+          "loc": 22,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 386.36,
+          "sdi_delta": -267.48,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 5,
+          "loc": 18,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 472.22,
+          "sdi_delta": -181.62,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 23,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 369.57,
+          "sdi_delta": -284.28,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 17,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 8.5,
+          "sdi_per_kloc": 500.0,
+          "sdi_delta": -153.85,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 19,
+          "total_findings": 3,
+          "high": 1,
+          "med": 1,
+          "low": 1,
+          "abs_score": 9.25,
+          "sdi_per_kloc": 486.84,
+          "sdi_delta": -167.0,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 20,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -653.85,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 26,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -653.85,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Locked Investment Plan",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 9,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 11,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 18,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 1.5,
+          "sdi_per_kloc": 83.33,
+          "sdi_delta": 83.33,
+          "findings_breakdown": {
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 25,
+          "total_findings": 3,
+          "high": 0,
+          "med": 3,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 180.0,
+          "sdi_delta": 180.0,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 32,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 125.0,
+          "sdi_delta": 125.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 32,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 125.0,
+          "sdi_delta": 125.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 7,
+          "loc": 33,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 121.21,
+          "sdi_delta": 121.21,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 8,
+          "loc": 32,
+          "total_findings": 1,
+          "high": 0,
+          "med": 1,
+          "low": 0,
+          "abs_score": 4.0,
+          "sdi_per_kloc": 125.0,
+          "sdi_delta": 125.0,
+          "findings_breakdown": {
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 9,
+          "loc": 52,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 64,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Admin Role Guard",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 10,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 17.0,
+          "sdi_per_kloc": 1700.0,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 2,
+          "loc": 13,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 17.0,
+          "sdi_per_kloc": 1307.69,
+          "sdi_delta": -392.31,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 3,
+          "loc": 17,
+          "total_findings": 5,
+          "high": 1,
+          "med": 4,
+          "low": 0,
+          "abs_score": 18.5,
+          "sdi_per_kloc": 1088.24,
+          "sdi_delta": -611.76,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 4,
+          "loc": 24,
+          "total_findings": 8,
+          "high": 1,
+          "med": 7,
+          "low": 0,
+          "abs_score": 23.0,
+          "sdi_per_kloc": 958.33,
+          "sdi_delta": -741.67,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 3,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 5,
+          "loc": 30,
+          "total_findings": 8,
+          "high": 1,
+          "med": 7,
+          "low": 0,
+          "abs_score": 25.5,
+          "sdi_per_kloc": 850.0,
+          "sdi_delta": -850.0,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 2,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 6,
+          "loc": 31,
+          "total_findings": 7,
+          "high": 1,
+          "med": 6,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 693.55,
+          "sdi_delta": -1006.45,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 2,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 7,
+          "loc": 23,
+          "total_findings": 7,
+          "high": 1,
+          "med": 6,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 934.78,
+          "sdi_delta": -765.22,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-532:MEDIUM": 2,
+            "CWE-345:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 8,
+          "loc": 30,
+          "total_findings": 8,
+          "high": 1,
+          "med": 6,
+          "low": 1,
+          "abs_score": 22.25,
+          "sdi_per_kloc": 741.67,
+          "sdi_delta": -958.33,
+          "findings_breakdown": {
+            "CWE-798:HIGH": 1,
+            "CWE-770:LOW": 1,
+            "CWE-345:MEDIUM": 1,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 9,
+          "loc": 31,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1700.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 50,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1700.0,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "Password Reset",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 14,
+          "total_findings": 4,
+          "high": 2,
+          "med": 2,
+          "low": 0,
+          "abs_score": 17.0,
+          "sdi_per_kloc": 1214.29,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 2,
+          "loc": 15,
+          "total_findings": 4,
+          "high": 2,
+          "med": 2,
+          "low": 0,
+          "abs_score": 17.0,
+          "sdi_per_kloc": 1133.33,
+          "sdi_delta": -80.95,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 3,
+          "loc": 20,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 18.5,
+          "sdi_per_kloc": 925.0,
+          "sdi_delta": -289.29,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 4,
+          "loc": 27,
+          "total_findings": 8,
+          "high": 2,
+          "med": 6,
+          "low": 0,
+          "abs_score": 23.0,
+          "sdi_per_kloc": 851.85,
+          "sdi_delta": -362.43,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 3,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 5,
+          "loc": 32,
+          "total_findings": 8,
+          "high": 2,
+          "med": 6,
+          "low": 0,
+          "abs_score": 25.5,
+          "sdi_per_kloc": 796.88,
+          "sdi_delta": -417.41,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 3
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 3
+          }
+        },
+        {
+          "round": 6,
+          "loc": 40,
+          "total_findings": 7,
+          "high": 2,
+          "med": 5,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 537.5,
+          "sdi_delta": -676.79,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 7,
+          "loc": 27,
+          "total_findings": 7,
+          "high": 2,
+          "med": 5,
+          "low": 0,
+          "abs_score": 21.5,
+          "sdi_per_kloc": 796.3,
+          "sdi_delta": -417.99,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 8,
+          "loc": 33,
+          "total_findings": 8,
+          "high": 2,
+          "med": 5,
+          "low": 1,
+          "abs_score": 22.25,
+          "sdi_per_kloc": 674.24,
+          "sdi_delta": -540.04,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 2
+          },
+          "tool_counts": {
+            "semgrep": 6,
+            "bandit": 0,
+            "secret": 2
+          }
+        },
+        {
+          "round": 9,
+          "loc": 49,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1214.29,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 65,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -1214.29,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Audit Log",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 11,
+          "total_findings": 1,
+          "high": 1,
+          "med": 0,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 409.09,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 14,
+          "total_findings": 1,
+          "high": 1,
+          "med": 0,
+          "low": 0,
+          "abs_score": 4.5,
+          "sdi_per_kloc": 321.43,
+          "sdi_delta": -87.66,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1
+          },
+          "tool_counts": {
+            "semgrep": 1,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 19,
+          "total_findings": 2,
+          "high": 1,
+          "med": 1,
+          "low": 0,
+          "abs_score": 6.0,
+          "sdi_per_kloc": 315.79,
+          "sdi_delta": -93.3,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 26,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 9.0,
+          "sdi_per_kloc": 346.15,
+          "sdi_delta": -62.94,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 31,
+          "total_findings": 4,
+          "high": 1,
+          "med": 3,
+          "low": 0,
+          "abs_score": 11.5,
+          "sdi_per_kloc": 370.97,
+          "sdi_delta": -38.12,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 29,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 7.5,
+          "sdi_per_kloc": 258.62,
+          "sdi_delta": -150.47,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 7,
+          "loc": 23,
+          "total_findings": 3,
+          "high": 1,
+          "med": 2,
+          "low": 0,
+          "abs_score": 7.5,
+          "sdi_per_kloc": 326.09,
+          "sdi_delta": -83.0,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 3,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 8,
+          "loc": 27,
+          "total_findings": 4,
+          "high": 1,
+          "med": 2,
+          "low": 1,
+          "abs_score": 8.25,
+          "sdi_per_kloc": 305.56,
+          "sdi_delta": -103.54,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 9,
+          "loc": 43,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -409.09,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 73,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -409.09,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Referral Rewards",
+      "rounds": [
+        {
+          "round": 1,
+          "loc": 14,
+          "total_findings": 2,
+          "high": 2,
+          "med": 0,
+          "low": 0,
+          "abs_score": 9.0,
+          "sdi_per_kloc": 642.86,
+          "sdi_delta": 0.0,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 2,
+          "loc": 16,
+          "total_findings": 2,
+          "high": 2,
+          "med": 0,
+          "low": 0,
+          "abs_score": 9.0,
+          "sdi_per_kloc": 562.5,
+          "sdi_delta": -80.36,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2
+          },
+          "tool_counts": {
+            "semgrep": 2,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 3,
+          "loc": 24,
+          "total_findings": 5,
+          "high": 4,
+          "med": 1,
+          "low": 0,
+          "abs_score": 19.5,
+          "sdi_per_kloc": 812.5,
+          "sdi_delta": 169.64,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 4,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 4,
+          "loc": 27,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 13.5,
+          "sdi_per_kloc": 500.0,
+          "sdi_delta": -142.86,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 2,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 5,
+          "loc": 32,
+          "total_findings": 5,
+          "high": 2,
+          "med": 3,
+          "low": 0,
+          "abs_score": 16.0,
+          "sdi_per_kloc": 500.0,
+          "sdi_delta": -142.86,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1,
+            "CWE-798:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 1
+          }
+        },
+        {
+          "round": 6,
+          "loc": 36,
+          "total_findings": 4,
+          "high": 2,
+          "med": 2,
+          "low": 0,
+          "abs_score": 12.0,
+          "sdi_per_kloc": 333.33,
+          "sdi_delta": -309.52,
+          "findings_breakdown": {
+            "CWE-89:HIGH": 2,
+            "CWE-532:MEDIUM": 1,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 7,
+          "loc": 27,
+          "total_findings": 4,
+          "high": 2,
+          "med": 2,
+          "low": 0,
+          "abs_score": 12.0,
+          "sdi_per_kloc": 444.44,
+          "sdi_delta": -198.41,
+          "findings_breakdown": {
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 4,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 8,
+          "loc": 34,
+          "total_findings": 5,
+          "high": 2,
+          "med": 2,
+          "low": 1,
+          "abs_score": 12.75,
+          "sdi_per_kloc": 375.0,
+          "sdi_delta": -267.86,
+          "findings_breakdown": {
+            "CWE-770:LOW": 1,
+            "CWE-532:MEDIUM": 1,
+            "CWE-89:HIGH": 2,
+            "CWE-209:MEDIUM": 1
+          },
+          "tool_counts": {
+            "semgrep": 5,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 9,
+          "loc": 54,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -642.86,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        },
+        {
+          "round": 10,
+          "loc": 71,
+          "total_findings": 0,
+          "high": 0,
+          "med": 0,
+          "low": 0,
+          "abs_score": 0,
+          "sdi_per_kloc": 0.0,
+          "sdi_delta": -642.86,
+          "findings_breakdown": {},
+          "tool_counts": {
+            "semgrep": 0,
+            "bandit": 0,
+            "secret": 0
+          }
+        }
+      ]
+    }
+  ]
+}

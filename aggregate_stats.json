@@ -1,0 +1,80 @@
+{
+  "total_snapshots": 150,
+  "per_round_means": {
+    "R1": {
+      "mean_findings": 2.13,
+      "std_findings": 1.85,
+      "mean_loc": 14.7,
+      "mean_abs_score": 9.27,
+      "mean_sdi_per_kloc": 630.37
+    },
+    "R2": {
+      "mean_findings": 2.13,
+      "std_findings": 1.85,
+      "mean_loc": 18.4,
+      "mean_abs_score": 9.27,
+      "mean_sdi_per_kloc": 500.31
+    },
+    "R3": {
+      "mean_findings": 3.47,
+      "std_findings": 1.96,
+      "mean_loc": 24.9,
+      "mean_abs_score": 12.23,
+      "mean_sdi_per_kloc": 497.45
+    },
+    "R4": {
+      "mean_findings": 5.4,
+      "std_findings": 2.59,
+      "mean_loc": 31.3,
+      "mean_abs_score": 14.53,
+      "mean_sdi_per_kloc": 466.54
+    },
+    "R5": {
+      "mean_findings": 5,
+      "std_findings": 2.95,
+      "mean_loc": 35.7,
+      "mean_abs_score": 15.83,
+      "mean_sdi_per_kloc": 444.47
+    },
+    "R6": {
+      "mean_findings": 4.53,
+      "std_findings": 2.97,
+      "mean_loc": 43,
+      "mean_abs_score": 14.23,
+      "mean_sdi_per_kloc": 331.56
+    },
+    "R7": {
+      "mean_findings": 4.4,
+      "std_findings": 3.27,
+      "mean_loc": 34,
+      "mean_abs_score": 14.03,
+      "mean_sdi_per_kloc": 426.03
+    },
+    "R8": {
+      "mean_findings": 5.27,
+      "std_findings": 3.13,
+      "mean_loc": 38,
+      "mean_abs_score": 14.32,
+      "mean_sdi_per_kloc": 376.64
+    },
+    "R9": {
+      "mean_findings": 0.13,
+      "std_findings": 0.52,
+      "mean_loc": 47.2,
+      "mean_abs_score": 0.25,
+      "mean_sdi_per_kloc": 2.29
+    },
+    "R10": {
+      "mean_findings": 0,
+      "std_findings": 0.0,
+      "mean_loc": 60.1,
+      "mean_abs_score": 0,
+      "mean_sdi_per_kloc": 0.0
+    }
+  },
+  "peak_increase_pct_mean": 219.3,
+  "peak_increase_pct_std": 113.5,
+  "r8_to_r10_reduction_pct_mean": 100.0,
+  "density_paradox_count": 11,
+  "density_paradox_pct": 73.3
+}
