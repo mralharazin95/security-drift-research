@@ -1,0 +1,86 @@
+rules:
+  - id: hardcoded-jwt-secret
+    patterns:
+      - pattern-either:
+          - pattern: |
+              const $VAR = "..."
+          - pattern: |
+              const $VAR = '...'
+      - metavariable-regex:
+          metavariable: $VAR
+          regex: '(?i)(jwt[_-]?secret|^secret$|api[_-]?key|password|^pw$|redis_pw)'
+    message: "Hardcoded secret detected in source code"
+    severity: ERROR
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-798"
+
+  - id: hardcoded-secret-fallback
+    patterns:
+      - pattern: 'process.env.$ENV || "..."'
+      - metavariable-regex:
+          metavariable: $ENV
+          regex: '(?i)(SECRET|PASSWORD|TOKEN|KEY|PW)'
+    message: "Hardcoded fallback for sensitive environment variable"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-798"
+
+  - id: prisma-raw-query-template
+    pattern: 'prisma.$queryRawUnsafe(`...`)'
+    message: "SQL Injection: raw query using template literal"
+    severity: ERROR
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-89"
+
+  - id: error-message-in-response-concat
+    pattern: 'res.status($CODE).json({error: "..." + $X.message})'
+    message: "Internal error details leaked via string concatenation"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-209"
+
+  - id: log-token-value
+    pattern: '$LOG.info($MSG, {token: $T, ...})'
+    message: "Token value logged"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-532"
+
+  - id: log-request-body
+    pattern: '$LOG.info($MSG, {body: $B, ...})'
+    message: "Request body logged in full (may contain PII)"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-532"
+
+  - id: log-headers
+    pattern: '$LOG.info($MSG, {headers: $H, ...})'
+    message: "Request headers logged in full (may contain auth tokens)"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-532"
+
+  - id: unbounded-memory-cache
+    pattern: 'const $C = new Map()'
+    message: "Unbounded in-memory cache (DoS / memory leak risk)"
+    severity: INFO
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-770"
+
+  - id: jwt-verify-no-algorithm
+    patterns:
+      - pattern: 'jwt.verify($TOKEN, $SECRET)'
+      - pattern-not: 'jwt.verify($TOKEN, $SECRET, $OPTS)'
+    message: "JWT verify without explicit algorithm restriction (alg:none risk)"
+    severity: WARNING
+    languages: [javascript, typescript]
+    metadata:
+      cwe: "CWE-345"
