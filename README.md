@@ -25,6 +25,7 @@ security-drift-research/
 ├── README.md
 ├── CITATION.cff              # Machine-readable citation metadata
 ├── codemeta.json             # CodeMeta research software metadata
+├── RESEARCH_BRIEF.md         # Research and media one-page brief
 ├── LICENSE
 ├── sdi.py                    # SDI reference implementation
 ├── sast_pipeline.py          # Multi-tool SAST orchestrator
@@ -124,6 +125,7 @@ Machine-readable metadata:
 
 - [CITATION.cff](CITATION.cff)
 - [CodeMeta](codemeta.json)
+- [Research and Media Brief](RESEARCH_BRIEF.md)
 
 ## Speaking and Expert Commentary
 
