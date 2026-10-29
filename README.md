@@ -1,6 +1,7 @@
 # Security Drift in Iterative AI-Assisted Development
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![ORCID](https://img.shields.io/badge/ORCID-0009--0002--9454--6217-A6CE39?logo=orcid)](https://orcid.org/0009-0002-9454-6217)
 
 **Companion repository for the paper:**
 
@@ -22,6 +23,8 @@ This repository contains the complete artifact set for reproducing the Security 
 ```
 security-drift-research/
 ├── README.md
+├── CITATION.cff              # Machine-readable citation metadata
+├── codemeta.json             # CodeMeta research software metadata
 ├── LICENSE
 ├── sdi.py                    # SDI reference implementation
 ├── sast_pipeline.py          # Multi-tool SAST orchestrator
@@ -104,17 +107,23 @@ where `w_c` is a domain-calibrated CWE weight, and `Δv_c` is the change in weig
 
 ## Citation
 
-If you use this framework, dataset, or SDI implementation, please cite:
+The associated manuscript is under review at *Array* and is not published. If you use this framework, dataset, or SDI implementation, cite this public research artifact:
 
 ```bibtex
-@article{alharazin2026securitydrift,
-  title={Security Drift in Iterative AI-Assisted Development: An Empirical Framework for Measuring Vulnerability Accumulation in Vibe-Coded FinTech Applications},
+@software{alharazin2026securitydrift,
+  title={Security Drift in Iterative AI-Assisted Development},
   author={Alharazin, Mahmoud J. M.},
-  journal={Array},
   year={2026},
-  note={Under review}
+  version={1.0.0},
+  url={https://github.com/mralharazin95/security-drift-research},
+  note={Research artifact; associated manuscript under review at Array and not published}
 }
 ```
+
+Machine-readable metadata:
+
+- [CITATION.cff](CITATION.cff)
+- [CodeMeta](codemeta.json)
 
 ## License
 
