@@ -4,7 +4,7 @@
 
 **Companion repository for the paper:**
 
-> Mahmoud J. M. Alharazin. "Security Drift in Iterative AI-Assisted Development: An Empirical Framework for Measuring Vulnerability Accumulation in Vibe-Coded FinTech Applications." *Submitted to Computers & Security (Elsevier)*, 2026.
+> Mahmoud J. M. Alharazin. "Security Drift in Iterative AI-Assisted Development: An Empirical Framework for Measuring Vulnerability Accumulation in Vibe-Coded FinTech Applications." *Array* (Elsevier), 2026. Under review.
 
 ## Overview
 
@@ -110,7 +110,7 @@ If you use this framework, dataset, or SDI implementation, please cite:
 @article{alharazin2026securitydrift,
   title={Security Drift in Iterative AI-Assisted Development: An Empirical Framework for Measuring Vulnerability Accumulation in Vibe-Coded FinTech Applications},
   author={Alharazin, Mahmoud J. M.},
-  journal={Computers \& Security},
+  journal={Array},
   year={2026},
   note={Under review}
 }
@@ -123,7 +123,10 @@ This project is licensed under the MIT License — see the [LICENSE](LICENSE) fi
 ## Author
 
 **Mahmoud J. M. Alharazin**
-- ORCID: [0009-0004-0575-3500](https://orcid.org/0009-0004-0575-3500)
-- Faculty of Engineering and Information Technology, Al-Azhar University – Gaza, Palestine
-- MAGNET INNOVATE LTD, London, United Kingdom
-- Email: mralharazin@magnetinnovate.com
+
+Management & Technology Consultant | Founder, MAGNET INNOVATE | AI Product Engineer
+
+- Personal website: [alharazin.com](https://alharazin.com/)
+- Company: [MAGNET INNOVATE LTD](https://magnetinnovate.com/) — UK company 15153676
+- ORCID: [0009-0002-9454-6217](https://orcid.org/0009-0002-9454-6217)
+- Email: [mahmoud@alharazin.com](mailto:mahmoud@alharazin.com)
