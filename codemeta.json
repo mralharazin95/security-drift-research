@@ -1,0 +1,42 @@
+{
+  "@context": "https://doi.org/10.5063/schema/codemeta-2.0",
+  "@type": "SoftwareSourceCode",
+  "name": "Security Drift in Iterative AI-Assisted Development",
+  "description": "Research artifact for measuring vulnerability accumulation across iterative AI-assisted development cycles. The associated manuscript is under review at Array and is not published.",
+  "codeRepository": "https://github.com/mralharazin95/security-drift-research",
+  "url": "https://github.com/mralharazin95/security-drift-research",
+  "license": "https://spdx.org/licenses/MIT",
+  "version": "1.0.0",
+  "dateCreated": "2026-10-29",
+  "dateModified": "2026-10-29",
+  "applicationCategory": "Research software",
+  "keywords": [
+    "security drift",
+    "AI-assisted development",
+    "FinTech security",
+    "vulnerability accumulation",
+    "software security"
+  ],
+  "author": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0002-9454-6217",
+    "givenName": "Mahmoud J. M.",
+    "familyName": "Alharazin",
+    "email": "mahmoud@alharazin.com",
+    "url": "https://alharazin.com/",
+    "affiliation": {
+      "@type": "Organization",
+      "name": "MAGNET INNOVATE LTD",
+      "identifier": "UK company 15153676",
+      "url": "https://magnetinnovate.com/"
+    }
+  },
+  "maintainer": {
+    "@type": "Person",
+    "@id": "https://orcid.org/0009-0002-9454-6217",
+    "givenName": "Mahmoud J. M.",
+    "familyName": "Alharazin",
+    "email": "mahmoud@alharazin.com",
+    "url": "https://alharazin.com/"
+  }
+}
