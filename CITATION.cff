@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "If you use this research artifact, please cite this repository. The associated manuscript is under review at Array and is not published."
+title: "Security Drift in Iterative AI-Assisted Development"
+type: software
+authors:
+  - family-names: "Alharazin"
+    given-names: "Mahmoud J. M."
+    orcid: "https://orcid.org/0009-0002-9454-6217"
+    email: "mahmoud@alharazin.com"
+repository-code: "https://github.com/mralharazin95/security-drift-research"
+url: "https://github.com/mralharazin95/security-drift-research"
+license: MIT
+date-released: "2026-10-29"
+version: "1.0.0"
