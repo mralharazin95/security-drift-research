@@ -125,6 +125,10 @@ Machine-readable metadata:
 - [CITATION.cff](CITATION.cff)
 - [CodeMeta](codemeta.json)
 
+## Speaking and Expert Commentary
+
+For conference talks, panels, podcasts, workshops, and media commentary, see the verified [speaking and expert commentary profile](SPEAKING.md).
+
 ## License
 
 This project is licensed under the MIT License — see the [LICENSE](LICENSE) file for details.
